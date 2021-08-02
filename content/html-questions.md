@@ -8,6 +8,8 @@ title: HTML 질문
 
 ### `DOCTYPE`은 무엇을 하나요?
 
+[링크](https://egas.tistory.com/86)
+
 `DOCTYPE`은 `document type`의 약어이다. doctype의 유일한 목적은 브라우저가 문서를 렌더링할 때, `quirks mode`로 바뀌지 않도록 하는 것이 유일한 목적이다.
 
 또한, HTML5에서 doctype의 유일한 목적은 `full standards mode`를 활성화하는것이다.
