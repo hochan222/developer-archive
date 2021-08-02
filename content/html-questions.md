@@ -14,7 +14,7 @@ title: HTML 질문
 
 또한, HTML5에서 doctype의 유일한 목적은 `full standards mode`를 활성화하는것이다.
 
-- 세부 설명
+#### 세부 설명
 
 옛날에는 웹 페이지가 `Netscape Navigator`, `Microsoft Internet Explorer`로 두 가지 버전이 있었다. W3C에서 웹 표준이 만들어졌을 때, 기존 웹 브라우저와의 호환이 안되어서 바로 사용할 수가 없었다. 따라서, 브라우저는 새로운 표준 준수 사이트를 이전 레거시 사이트와 다르게 처리하기 위해 두 가지 모드를 도입했다. 
 
