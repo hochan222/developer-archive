@@ -26,3 +26,23 @@ ref는 엘리먼트에 대한 참조를 반환하는 데 사용된다.
 
 경험: popup을 만들 때, createPortal을 썼는데 이때 event delegation으로 상위 element에 등록된 이벤트에 대해서, 클릭한 위치의 target을 구하기 위해 사용.
 
+### Virtual DOM이란?
+
+Virtual DOM (VDOM)는 실제 DOM의 인-메모리 표현이다. UI 표현은 메모리에 유지되고 "실제" DOM과 동기화된다. 이는 렌더 함수의 호출과 화면상 elements를 표현하는 사이에 발생하는 단계이다. 이 전체 프로세스는 reconciliation 이라고 한다.
+
+
+Virtual DOM는 브라우저 API를 기반으로 Javascript 라이브러리로 구현된 개념이다.
+
+### Virtual DOM은 어떻게 작동하나?
+
+Virtual DOM는 세 가지 간단한 단계로 작동한다.
+
+- 기본 데이터가 변경될 때마다, 전체 UI는 Virtual DOM 표현으로 리렌더링 된다.
+- 이전 DOM 표현과 새로운 표현 사이의 차이를 계산한다.
+- 계산이 완료되면, 실제 DOM은 실제로 변경된 것만 업데이트할 것이다.
+
+### React Fiber란?
+
+Fiber는 React v16에서 새로운 reconciliation(조정된) 엔진 또는 핵심 알고리즘의 재구현이다. React Fiber의 목표는 애니메이션, 레이아웃, 제스처, 작업 일시중지, 중단, 재사용 같은 영역에 대한 적합성을 높이고 다양한 유형의 업데이트에 우선순위를 정하는 것이다.
+
+주요 기능은 `incremental rendering`으로 렌더링 작업을 청크(chunk)로 분할하고 여러 프레임에 걸쳐 펼치는 기능이다.
