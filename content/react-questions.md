@@ -10,6 +10,10 @@ title: React 질문
 
 SyntheticEvent: 브라우저의 기본 이벤트를 감싼 cross-browser wrapper
 
+### React 철학 [링크](https://egas.tistory.com/89)
+
+[We can combine the two by making the React state be the “single source of truth”.](https://reactjs.org/docs/forms.html#controlled-components)
+
 ### "key" props는 무엇이며 elements의 배열에서 사용하면 이점이 무엇인가?
 
 key는 elements 배열을 만들 때 포함시켜야 하는 특수 문자열 속성이다. Keys는 React가 변경, 추가, 제거된 항목을 식별하는 데 도움을 준다.
@@ -46,3 +50,5 @@ Virtual DOM는 세 가지 간단한 단계로 작동한다.
 Fiber는 React v16에서 새로운 reconciliation(조정된) 엔진 또는 핵심 알고리즘의 재구현이다. React Fiber의 목표는 애니메이션, 레이아웃, 제스처, 작업 일시중지, 중단, 재사용 같은 영역에 대한 적합성을 높이고 다양한 유형의 업데이트에 우선순위를 정하는 것이다.
 
 주요 기능은 `incremental rendering`으로 렌더링 작업을 청크(chunk)로 분할하고 여러 프레임에 걸쳐 펼치는 기능이다.
+
+### Controlled Components, Uncontrolled components [링크](https://egas.tistory.com/88)
