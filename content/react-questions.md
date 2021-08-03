@@ -2,9 +2,7 @@
 title: React 질문
 ---
 
-## 목차
-
-- [Why React?](#Why-React?)
+https://github.com/hochan222/reactjs-interview-questions-korean#React%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80 를 먼저 훑어보자.
 
 ### Why React? 
 
@@ -52,3 +50,9 @@ Fiber는 React v16에서 새로운 reconciliation(조정된) 엔진 또는 핵�
 주요 기능은 `incremental rendering`으로 렌더링 작업을 청크(chunk)로 분할하고 여러 프레임에 걸쳐 펼치는 기능이다.
 
 ### Controlled Components, Uncontrolled components [링크](https://egas.tistory.com/88)
+
+### React에서 Lifting State Up란?
+
+여러 컴포넌트가 동일한 변경 데이터를 공유해야 하는 경우 가장 가까운 공통 조상으로 lift the shared state up을 하는 것.
+
+즉, 2개의 자식 컴포넌트가 부모로부터 동일한 데이터를 공유하는 경우, 모든 자식 컴포넌트에서 로컬 상태를 유지하는 대신에 상태를 부모에서 관리하는 것이다.
