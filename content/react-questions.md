@@ -61,3 +61,12 @@ Fiber는 React v16에서 새로운 reconciliation(조정된) 엔진 또는 핵�
 
 React의 Component는 상위 component에서 받은 props 를 input으로 하고 React를 구성하는 가장 작은 단위인 Element 를 output으로 하는 함수이다.
 
+### Side Effect란? 
+
+React 컴포넌트가 화면에 렌더링된 이후에 비동기로 처리되어야 하는 부수적인 효과들을 흔히 Side Effect라고 일컽습니다.
+
+### [React Life Cycle](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+
+React를 사용하면 각 component 단위로 UI를 화면에 보이게 하고, 다른 UI로 바꾸고, 현재 보이는 UI를 화면에서 없앨 수 있다. 따라서 각각의 Component들은 생성 -> 업데이트 -> 제거 단계를 차례로 겪는 생명주기(Life Cycle)를 가지고 있다.
+
+<img src="https://user-images.githubusercontent.com/22424891/128115028-ae2ca83c-479a-487f-bacb-e0529e70382b.png" height="300px"/>
