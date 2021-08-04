@@ -56,3 +56,8 @@ Fiber는 React v16에서 새로운 reconciliation(조정된) 엔진 또는 핵�
 여러 컴포넌트가 동일한 변경 데이터를 공유해야 하는 경우 가장 가까운 공통 조상으로 lift the shared state up을 하는 것.
 
 즉, 2개의 자식 컴포넌트가 부모로부터 동일한 데이터를 공유하는 경우, 모든 자식 컴포넌트에서 로컬 상태를 유지하는 대신에 상태를 부모에서 관리하는 것이다.
+
+### React에서 Component란?
+
+React의 Component는 상위 component에서 받은 props 를 input으로 하고 React를 구성하는 가장 작은 단위인 Element 를 output으로 하는 함수이다.
+
